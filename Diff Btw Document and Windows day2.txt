@@ -1,0 +1,26 @@
+Difference between Document and Windows Object:
+
+Document:
+
+1.Access to forms and form elements: It provides access to forms and their elements for handling user input.
+
+2.Handles events related to document loading: It manages events like onload and onunload, which occur when the document finishes loading or unloads.
+
+3.Limited scope: The Document object is limited to the contents of a single HTML document.
+
+4.Hierarchical structure: It follows a hierarchical structure, where elements are nested within each other, forming a tree-like structure.
+
+5.Can be serialized: The Document object can be serialized into an HTML string using methods like innerHTML or outerHTML.
+
+
+Windows Object:
+
+1.Represents the browser window: The Window object represents the browser window or tab containing the HTML document.
+
+2.Global scope: It provides a global scope for JavaScript code, allowing access to functions, variables, and objects defined in different scripts.
+
+3.Controls the browser environment: It controls aspects of the browser environment, such as location, history, and navigation.
+
+4.Manages browser features: It manages features like alerts, prompts, and confirmations using methods like alert(), prompt(), and confirm().
+
+5.Access to browser dimensions: It provides properties like innerWidth, innerHeight, outerWidth, and outerHeight to get the dimensions of the browser window.
